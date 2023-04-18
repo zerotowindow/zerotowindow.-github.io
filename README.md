@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <title>예약 사이트</title>
