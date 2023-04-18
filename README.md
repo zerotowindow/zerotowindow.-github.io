@@ -54,4 +54,6 @@
         <h2>Contact Us</h2>
         <p>전화: 010-1234-5678</p>
         <p>이메일: contact@reservation.com</p>
-      </div
+      </div>
+    </div>
+  </
