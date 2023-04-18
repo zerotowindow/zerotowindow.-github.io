@@ -2,11 +2,12 @@
 <head>
   <title>예약 사이트</title>
   <link rel="stylesheet" href="style.css"> <!-- 별도의 CSS 파일 링크 -->
-  <link rel="stylesheet" href="fullcalendar.min.css"> <!-- FullCalendar CSS 파일 링크 -->
-  <script src="moment.min.js"></script> <!-- Moment.js 라이브러리 파일 링크 -->
-  <script src="jquery.min.js"></script> <!-- jQuery 라이브러리 파일 링크 -->
-  <script src="fullcalendar.min.js"></script> <!-- FullCalendar 라이브러리 파일 링크 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css"> <!-- FullCalendar CSS 파일 링크 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script> <!-- Moment.js 라이브러리 파일 링크 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"> <!-- jQuery 라이브러리 파일 링크 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
   <script src="calendar.js"></script> <!-- 캘린더 관련 자바스크립트 파일 링크 -->
+  <script src="reservation.js"></script> <!-- 예약 관련 자바스크립트 파일 링크 -->
 </head>
 <body>
   <div class="container">
