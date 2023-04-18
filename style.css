@@ -1,0 +1,84 @@
+/* 전체 컨테이너 스타일 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 헤더 스타일 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 로고 스타일 */
+.header h1 {
+  font-size: 24px;
+}
+
+/* 네비게이션 스타일 */
+.nav {
+  display: flex;
+}
+
+.nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* 메인 컨텐츠 스타일 */
+.main {
+  margin-top: 30px;
+}
+
+/* 폼 스타일 */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label,
+input,
+select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* 푸터 스타일 */
+.footer {
+  display: flex;
+  margin-top: 50px;
+}
+
+/* 캘린더 스타일 */
+.calendar {
+  flex: 1;
+}
+
+/* 정보 스타일 */
+.info {
+  flex: 1;
+}
+
+/* 미디어 쿼리 - 화면이 작을 때 푸터의 레이아웃 변경 */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+}
