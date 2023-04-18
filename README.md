@@ -28,11 +28,6 @@
         <input type="date" id="start-date" name="start-date" required>
         <label for="end-date">종료 날짜</label>
         <input type="date" id="end-date" name="end-date" required>
-        <label for="start-time">시작 시간</label>
-        <input type="time" id="start-time" name="start-time" required>
-        <label for="end-time">종료 시간</label>
-        <input type="time" id="end-time" name="end-time" required>
-        <input type="submit" value="예약">
         <br>
         <label for="samsung">삼성 노트북 선택</label>
         <input type="checkbox" id="samsung1" name="samsung[]" value="1"> Book PRO 2 S1
