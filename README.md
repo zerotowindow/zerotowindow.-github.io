@@ -7,6 +7,12 @@
   <div class="container">
     <div class="header">
       <h1>예약 사이트</h1>
+      <link rel="stylesheet" href="style.css"> <!-- 별도의 CSS 파일 링크 -->
+      <link rel="stylesheet" href="fullcalendar.min.css"> <!-- FullCalendar CSS 파일 링크 -->
+      <script src="moment.min.js"></script> <!-- Moment.js 라이브러리 파일 링크 -->
+      <script src="jquery.min.js"></script> <!-- jQuery 라이브러리 파일 링크 -->
+      <script src="fullcalendar.min.js"></script> <!-- FullCalendar 라이브러리 파일 링크 -->
+      <script src="calendar.js"></script> <!-- 캘린더 관련 자바스크립트 파일 링크 -->
       <nav>
         <a href="#" class="active">예약 사이트</a> <!-- 예약 사이트가 기본 활성화된 상태로 표시 -->
         <a href="#reservation-form">Reservation</a> <!-- Reservation 섹션으로 스크롤 이동 -->
