@@ -21,17 +21,17 @@
     <div class="main" id="reservation-form"> <!-- id를 이용하여 Reservation 섹션으로 스크롤 이동할 수 있도록 함 -->
       <h2>예약하기</h2>
         <form id="reservation-form">
-        <label for="name">이름:</label>
-        <input type="text" id="name" name="name">
-        <br>
-        <label for="date">날짜:</label>
-        <input type="date" id="date" name="date">
-        <br>
-        <label for="time">시간:</label>
-        <input type="time" id="time" name="time">
-        <br>
-        <label for="guests">손님 수:</label>
-        <input type="number" id="guests" name="guests" min="1" max="10">
+        <label for="name">이름</label>
+        <input type="text" id="name" name="name" required>
+        <label for="start-date">시작 날짜</label>
+        <input type="date" id="start-date" name="start-date" required>
+        <label for="end-date">종료 날짜</label>
+        <input type="date" id="end-date" name="end-date" required>
+        <label for="start-time">시작 시간</label>
+        <input type="time" id="start-time" name="start-time" required>
+        <label for="end-time">종료 시간</label>
+        <input type="time" id="end-time" name="end-time" required>
+        <input type="submit" value="예약">
         <br>
         <label for="samsung">삼성 노트북 선택</label>
         <input type="checkbox" id="samsung1" name="samsung[]" value="1"> Book PRO 2 S1
